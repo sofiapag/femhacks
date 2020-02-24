@@ -10,16 +10,24 @@ p {
 
 hr {
   border-top: 10px solid blue;
+  border-bottom: none;  
+  border-left: none;
+  border-right: none;
+
+}
+
+#logo {
+  background-image: url("./HEADERpic.jpg");
+  width: 80%;
+  margin: auto;
 }
 
 #logo_text {
-  width: 80%;
+  width: 60%;
   text-align: left;
   color: white;
-  margin: auto;
-  background-image: url("./HEADERpic.jpg");
-  height: 600px;
-  padding: 20px;
+  height: 500px;
+  padding: 50px;
 }
 
 a {
@@ -33,4 +41,45 @@ h1 {
 
 h2 {
   font-family: 'Roboto';
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#menu li {
+  background-color: lightgrey;
+  padding: 20px;
+  list-style: none;
+  border-radius: 15px;
+
+}
+
+#about-title {
+  color: red;
+  text-decoration: underline;
+  text-align: left;
+}
+
+#site_content {
+  width: 70%;
+  padding-left: 130px;
+  text-align: left;
+}
+
+.about {
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#footer {
+  margin: auto;
+  text-align: center;
 }
