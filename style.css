@@ -7,3 +7,30 @@ body {
 p {
   font-family: Chalkduster, fantasy;
 }
+
+hr {
+  border-top: 10px solid blue;
+}
+
+#logo_text {
+  width: 80%;
+  text-align: left;
+  color: white;
+  margin: auto;
+  background-image: url("./HEADERpic.jpg");
+  height: 600px;
+  padding: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Roboto';
+}
